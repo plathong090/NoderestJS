@@ -9,7 +9,7 @@ app.use(express.json());
 
 const sequelize = new Sequelize("database", "username", "password", {
   host: "localhost",
-  dialect: "sqlite",
+  dialog: "sqlite",
   storage: "./Database/Books.sqlite", //connect my DB
 });
 
